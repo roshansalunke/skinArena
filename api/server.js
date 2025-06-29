@@ -69,3 +69,5 @@ app.use((err, req, res, next) => {
     message: err.message,
   });
 });
+
+const productSchema = require("./app/model/ProductModel")
